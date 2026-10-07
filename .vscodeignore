@@ -1,0 +1,6 @@
+.githooks/**
+scripts/**
+.gitignore
+node_modules/**
+*.vsix
+PUBLISHING.md

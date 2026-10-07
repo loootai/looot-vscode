@@ -1,0 +1,50 @@
+{
+  "name": "looot",
+  "displayName": "looot",
+  "description": "Adds the looot MCP server to VS Code: search, price and run 2,500+ data API endpoints from your agent.",
+  "version": "0.1.0",
+  "publisher": "looot",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "homepage": "https://looot.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loootai/looot-vscode.git"
+  },
+  "bugs": {
+    "url": "https://looot.ai/contact"
+  },
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "AI",
+    "Other"
+  ],
+  "keywords": [
+    "mcp",
+    "looot",
+    "data",
+    "enrichment",
+    "agent"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "looot.mcp",
+        "label": "looot"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-dependencies",
+    "check": "node scripts/check.js"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.0.0"
+  }
+}
