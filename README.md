@@ -1,4 +1,8 @@
+<p align="center"><img src="assets/hero.png" alt="looot-vscode: looot in VS Code agent mode" width="100%"></p>
+
 # looot for VS Code
+
+[![License](https://img.shields.io/github/license/loootai/looot-vscode)](LICENSE) [![Release](https://img.shields.io/github/v/release/loootai/looot-vscode)](https://github.com/loootai/looot-vscode/releases) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 looot gives an AI agent one key and one prepaid balance for 2,500+ data API endpoints from 90+ providers: work emails, phone numbers, company and people search, Google results, web pages, news, LinkedIn profiles, local businesses. The agent searches the catalog, sees the price before it runs, and pays per call. A failed call costs nothing. No subscription, top up from $5.
 
