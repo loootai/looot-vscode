@@ -2,6 +2,14 @@
 
 looot gives an AI agent one key and one prepaid balance for 2,500+ data API endpoints from 90+ providers: work emails, phone numbers, company and people search, Google results, web pages, news, LinkedIn profiles, local businesses. The agent searches the catalog, sees the price before it runs, and pays per call. A failed call costs nothing. No subscription, top up from $5.
 
+## Install for agents
+
+```bash
+claude mcp add --transport http looot https://api.looot.ai/mcp
+```
+
+See also: [awesome-looot-use-cases](https://github.com/loootai/awesome-looot-use-cases) (copy-paste recipes) and [awesome-gtm](https://github.com/loootai/awesome-gtm) (open-source GTM tools).
+
 This extension adds the looot remote MCP server (`https://api.looot.ai/mcp`) to VS Code. Install it, open Copilot Chat in agent mode, and the looot tools appear in the tools picker. The first use opens a browser window to sign in to looot.
 
 ## Install
