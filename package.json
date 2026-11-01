@@ -1,7 +1,7 @@
 {
   "name": "looot",
   "displayName": "looot",
-  "description": "Adds the looot MCP server to VS Code: search, price and run 2,500+ data API endpoints from your agent.",
+  "description": "Adds the looot MCP server to VS Code: search, price and run 4,200+ data API endpoints from your agent.",
   "version": "0.1.0",
   "publisher": "looot",
   "license": "MIT",
